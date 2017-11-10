@@ -6,7 +6,7 @@ client.on('ready', () => {
   client.user.setPresence({ game: { name: `on ${client.guilds.size} guilds | c.help`, type: 0 }});
 });
 
-const prefix = "c."
+const prefix = "c.";
 
 const answers = [
   'Without a doubt', 'Extremely likely', 'Perhaps', 'Maybe', 'I\'ll have to think about that', 'Not a chance!'
